@@ -2,6 +2,7 @@
 #IT20
 ###KT mäng###
 ####################Smaug####################
+#vajalikud importid
 import time
 import random
 import os
@@ -23,7 +24,7 @@ valik = ""
 #     Jõud = print(random.randrange(3.5,7))
 #     Tase = 1
 #     Kaitse = print(random.randrange(1,4))
-
+#TODO: saab kergemalt teha
 #Story
 def prolog():
     print("Alustame mänguga!")
@@ -43,7 +44,7 @@ def prolog():
         time.sleep(sleep)
         print("Mäng läbi!")
         loop == 0
-
+#TODO: saab kergemalt
 #return 
 def Kasutaja():
 #     time.sleep(sleep)
